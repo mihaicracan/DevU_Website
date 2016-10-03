@@ -59,7 +59,7 @@
               		<div class="inner cover">
                         <img src="{{ url('images/logo-big-white.png') }}" alt="DevU Technologies" />
                 		<h2>Software with a story</h2>
-                        <p class="description">We are a small software company based in Bucharest specialized in web and mobile development, building quality products that help businesses telling their stories.</p>
+                        <p class="description">We are a small software company based in Bucharest specialized in web and mobile development, building quality products that help businesses tell their stories.</p>
                         <p class="learn-more lead">
                             <a id="more" data-slide-to="web_services" href="#" class="btn btn-lg btn-primary">Find out more</a>
                         </p>
@@ -74,7 +74,7 @@
                     <div class="col-sm-6">
                         <h2 class="not-animate-hide">Web Development</h2>
                         <div class="content not-animate-hide">
-                            <p>We are delivering the best web products using the right technologies that suits your needs. We have experience starting from building simple presentation websites and ending up with realtime online games or custom platforms used by millions of users. We also love to create the best user experience so he can enjoy the product at its best.</p>
+                            <p>We are delivering the best web products using the right technologies that suit your needs. We have experience starting from building simple presentation websites and ending up with realtime online games or custom platforms used by thousands of users. We also love to create the best experience for your users so they can enjoy the product at its best.</p>
                             <a class="offer" data-slide-to="contact" href="#">Contact us</a>
                         </div>
                     </div>
@@ -94,7 +94,7 @@
                     <div class="col-sm-6">
                         <h2 class="not-animate-hide">Mobile Development</h2>
                         <div class="content not-animate-hide">
-                            <p>We provides development services for both hybrid and native mobile aplications for iOS and Android smartphones. We are helping you to choose the right development strategy so you can optimise your costs, development time and the impact of your application.</p>
+                            <p>We provide development services for both hybrid and native mobile aplications for iOS and Android smartphones. We are helping you to choose the right development strategy so you can optimise costs and development time and maximise the impact of your application.</p>
                             <a class="offer" data-slide-to="contact" href="#">Request an offer</a>
                         </div>
                     </div>
