@@ -162,7 +162,7 @@ body {
   right: 0;
   bottom: 0;
   min-height: 650px;
-  background-image: url("http://blog.parkinn.com/wp-content/uploads/sites/7/2016/01/BP2-BUHPD-Creative-Labs-Shutterstock-Bucharest-is-an-up-and-coming-city-filled-to-the-brim-with-exciting-sights-and-activities.-Check-out-our-top-5-list.jpg");
+  background-image: url("../../images/bg.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -538,7 +538,7 @@ body {
 
 .section.offer {
   color: #fff;
-  background-image: url("https://static.pexels.com/photos/7093/coffee-desk-notes-workspace-large.jpg");
+  background-image: url("../../images/offer.jpg");
   background-size: cover;
 }
 

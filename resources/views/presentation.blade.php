@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>DevU Technologies - Software Company, Bucharest</title>
 
@@ -194,7 +194,7 @@
             </div>
         </div>
 
-        <div id="footer-wrapper">2016 &copy DevU Technologies SRL</div>
+        <div id="footer-wrapper">2016 &copy; DevU Technologies SRL</div>
 
         <script src="https://maps.googleapis.com/maps/api/js"></script>
         <script type="text/javascript" src="{{ url('js/lib.js?v=1.1.0') }}"></script>
