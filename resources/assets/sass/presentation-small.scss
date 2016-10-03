@@ -1,0 +1,154 @@
+@media (max-width: 500px) {
+
+    /* Modal Style */
+    #myModal {
+
+        .modal-content {
+
+            .modal-header {
+                padding-top: 25px;
+
+                .modal-title {
+                    font-size: 28px;
+                }
+            }
+
+            .modal-body {
+                padding-top: 0;
+                padding-bottom: 25px;
+                font-weight: 300;
+                font-size: 16px;
+                color: #8E929E;
+                line-height: 22px;
+            }
+
+            .modal-footer {
+                .btn {
+                    width: 100%;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+  	
+    .cover-wrapper {
+
+        .masthead {
+
+            &.top {
+                padding-right: 0;
+            }
+
+            &.fixed {
+                height: 120px;
+            }
+
+            .masthead-header {
+
+                .logo {
+                    text-align: center;
+                }
+
+                .sub-logo {
+                    text-align: center;
+                }
+            }
+
+            .masthead-nav {
+
+                li {
+                    a {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+        .inner.cover {
+
+            img {
+                height: 80px !important;
+            }
+
+            h2 {
+                margin-top: 40px;
+                margin-bottom: 20px;
+                font-size: 25px !important;
+            }
+
+            p.description {
+                font-size: 14px !important;
+            }
+
+            p.lead {
+                margin-top: 40px;
+            }
+        }
+    }
+
+    .section {
+        
+        .inner {
+            padding: 15px 20px 40px 20px;
+        }
+
+        .content {
+            padding-top: 35px;
+        }
+
+        h2 {
+            margin-bottom: 15px;
+            font-size: 28px;
+        }
+
+        h3 {
+            margin: 0 auto;
+            max-width: 350px;
+            font-size: 14px;
+            line-height: 22px;
+        }
+
+        a.offer {
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .picture-wrapper {
+            display: none;
+        }
+
+        .row {
+
+            h2 {
+                margin-top: 25px;
+                text-align: center;
+            }
+
+            .content {
+
+                p {
+                    text-align: center;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        &.team {
+
+            .member {
+                margin-top: 30px;
+
+                &:first-child {
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        &.contact {
+
+            .social {
+                margin-top: 20px;
+            }
+        }
+    }
+}

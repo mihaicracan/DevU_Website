@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DevU Technologies - Software Company, Bucharest</title>
+
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <meta name="description" content="We are a small software company based in Bucharest specialized in web and mobile development, building quality products that help businesses telling their stories.">
+
+        <link rel="icon" type="image/x-icon" href="{{ url('images/favicon.png') }}"> 
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,700" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900' rel='stylesheet' type='text/css'>
+        <!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'> -->
+        <link rel="stylesheet" href="{{ url('css/lib.css?v=1.1.0') }}">
+        <link rel="stylesheet" href="{{ url(elixir('css/app.css')) }}">
+    </head>
+
+    <body>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> -->
+                <h4 class="modal-title" id="myModalLabel"></h4>
+              </div>
+              <div class="modal-body"></div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Great</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="cover-wrapper" class="cover-wrapper">
+            <div class="cover-bg"></div>
+            <div id="masthead" class="masthead clearfix top fixed not-animate-hide">
+                <div class="inner">
+                        <div class="navbar-header masthead-header">
+                            <div class="logo">
+                                <span class="first"></span>
+                                <span class="last"></span>
+                            </div>
+                            <div class="sub-logo">
+                                Technologies
+                            </div>
+                        </div>
+                        <nav>
+                            <ul class="nav navbar-nav navbar-right masthead-nav">
+                                <li class="home not-animate-hide"><a data-slide-to="cover" href="#">Home</a></li>
+                                <li class="services not-animate-hide"><a data-slide-to="web_services" href="#">Services</a></li>
+                                <li class="team not-animate-hide"><a data-slide-to="team" href="#">Team</a></li>
+                                <li class="contact not-animate-hide"><a data-slide-to="contact" href="#">Contact</a></li>
+                            </ul>
+                        </nav>
+                </div>
+            </div>
+          	<div class="cover-wrapper-inner">
+            	<div class="cover-container">
+              		<div class="inner cover">
+                        <img src="{{ url('images/logo-big-white.png') }}" alt="DevU Technologies" />
+                		<h2>Software with a story</h2>
+                        <p class="description">We are a small software company based in Bucharest specialized in web and mobile development, building quality products that help businesses telling their stories.</p>
+                        <p class="learn-more lead">
+                            <a id="more" data-slide-to="web_services" href="#" class="btn btn-lg btn-primary">Find out more</a>
+                        </p>
+              		</div>
+            	</div>
+            </div>
+        </div>
+
+        <div id="web-services-wrapper" class="section web-services">
+            <div class="inner">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h2 class="not-animate-hide">Web Development</h2>
+                        <div class="content not-animate-hide">
+                            <p>We are delivering the best web products using the right technologies that suits your needs. We have experience starting from building simple presentation websites and ending up with realtime online games or custom platforms used by millions of users. We also love to create the best user experience so he can enjoy the product at its best.</p>
+                            <a class="offer" data-slide-to="contact" href="#">Contact us</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 picture-wrapper">
+                        <div class="picture not-animate-hide right"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile-services-wrapper" class="section mobile-services">
+            <div class="inner">
+                <div class="row">
+                    <div class="col-sm-6 picture-wrapper">
+                        <div class="picture not-animate-hide left"></div>
+                    </div>
+                    <div class="col-sm-6">
+                        <h2 class="not-animate-hide">Mobile Development</h2>
+                        <div class="content not-animate-hide">
+                            <p>We provides development services for both hybrid and native mobile aplications for iOS and Android smartphones. We are helping you to choose the right development strategy so you can optimise your costs, development time and the impact of your application.</p>
+                            <a class="offer" data-slide-to="contact" href="#">Request an offer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="iot-services-wrapper" class="section iot-services">
+            <div class="inner">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h2 class="not-animate-hide">Internet of Things</h2>
+                        <div class="content not-animate-hide">
+                            <p>We believe in the future of the connected devices that improve our lifestyle and we love to be a part of it. We have experience in building software for embed devices that allows them to collect and exchange data through the network.</p>
+                            <a class="offer" data-slide-to="contact" href="#">Contact us</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 picture-wrapper">
+                        <div class="picture not-animate-hide right"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="team-wrapper" class="section team">
+            <div class="inner">
+                <h2 class="not-animate-hide">Team</h2>
+                <h3 class="not-animate-hide">We are a young and ambitious team that loves to build great products and to exceed the expectations.</h3>
+                <div class="content not-animate-hide">
+                    <div class="row">
+
+                        <div class="member col-sm-4">
+                            <a href="https://ro.linkedin.com/in/iulia-paraicu-38373784/ro" target="_blank">
+                                <img src="{{ url('images/iulia.png') }}" alt="Iulia Paraicu">
+                                <div class="name">Iulia Paraicu</div>
+                                <div class="role">Co-Founder</div>
+                            </a>
+                        </div>
+
+                        <div class="member col-sm-4">
+                            <a href="http://mihaicracan.com/" target="_blank">
+                                <img src="{{ url('images/mihai.jpg') }}" alt="Mihai Cracan">
+                                <span class="name">Mihai Cracan</span>
+                                <span class="role">Co-Founder</span>
+                            </a>
+                        </div>
+
+                        <div class="member col-sm-4">
+                            <a href="https://ro.linkedin.com/in/andreea-longo-3b503484/ro" target="_blank">
+                                <img src="{{ url('images/andreea.png') }}" alt="Andreea Longo">
+                                <div class="name">Andreea Longo</div>
+                                <div class="role">Business Developer</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="offer-wrapper" class="section offer">
+            <div class="bg-color">
+                <div class="inner">
+                    <h2 class="not-animate-hide">Ask for an offer</h2>
+                    <h3 class="not-animate-hide">Let us analyse your project, build the right development strategy and make you an offer for free.</h3>
+                    <div class="content not-animate-hide">
+                        <a class="btn btn-primary" data-slide-to="contact" href="#">Contact us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact-wrapper" class="section contact">
+            <div class="inner">
+                <h2 class="not-animate-hide">Contact</h2>
+                <h3 class="not-animate-hide">If you have a cool project in mind feel free to contact us.</h3>
+                <div class="social">
+                    <a href="https://www.facebook.com/mihai.george.cr" target="_blank" class="item fb ion-social-facebook"></a>
+                    <a href="https://ro.linkedin.com/in/mihai-george-cracan-4b805258" target="_blank" class="item ln ion-social-linkedin"></a>
+                    <a href="https://twitter.com/MihaiGeorgeC" target="_blank" class="item tw ion-social-twitter"></a>
+                </div>
+                <div class="content not-animate-hide">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="inputName" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                        </div>
+                    </form>
+                    <form>
+                        <div class="form-group">
+                            <textarea class="form-control" id="inputMessage" placeholder="Message..."></textarea>
+                        </div>
+                        <div id="contactBtn" class="btn btn-primary btn-block btn-lg">Send</div>
+                    </form>   
+                </div>
+            </div>
+        </div>
+
+        <div id="footer-wrapper">2016 &copy DevU Technologies</div>
+
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <script type="text/javascript" src="{{ url('js/lib.js?v=1.1.0') }}"></script>
+        <script type="text/javascript" src="{{ url(elixir('js/app.js')) }}"></script>
+
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-78896263-1', 'auto');
+          ga('send', 'pageview');
+        </script>
+
+        <!-- Hotjar Tracking Code for http://mihaicracan.com -->
+        <script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:230115,hjsv:5};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+        </script>
+
+
+        <script>
+          window.intercomSettings = {
+            app_id: "yhh0y2k6"
+          };
+        </script>
+        <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/yhh0y2k6';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+    </body>
+</html>
