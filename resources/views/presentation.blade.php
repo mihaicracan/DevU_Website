@@ -170,11 +170,11 @@
             <div class="inner">
                 <h2 class="not-animate-hide">Contact</h2>
                 <h3 class="not-animate-hide">If you have a cool project in mind feel free to contact us.</h3>
-                <div class="social">
+                <!-- <div class="social">
                     <a href="https://www.facebook.com/mihai.george.cr" target="_blank" class="item fb ion-social-facebook"></a>
                     <a href="https://ro.linkedin.com/in/mihai-george-cracan-4b805258" target="_blank" class="item ln ion-social-linkedin"></a>
                     <a href="https://twitter.com/MihaiGeorgeC" target="_blank" class="item tw ion-social-twitter"></a>
-                </div>
+                </div> -->
                 <div class="content not-animate-hide">
                     <form>
                         <div class="form-group">
@@ -194,7 +194,7 @@
             </div>
         </div>
 
-        <div id="footer-wrapper">2016 &copy DevU Technologies</div>
+        <div id="footer-wrapper">2016 &copy DevU Technologies SRL</div>
 
         <script src="https://maps.googleapis.com/maps/api/js"></script>
         <script type="text/javascript" src="{{ url('js/lib.js?v=1.1.0') }}"></script>

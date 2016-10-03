@@ -266,7 +266,7 @@ var APP = {
         if (this.validateMessage()) {
             APP.displayModal({
                 title: "Message Sent",
-                body: "Thank you!<br>I will check your message as soon as possible."
+                body: "Thank you!<br>We'll check your message as soon as possible."
             });
 
             var data = {
