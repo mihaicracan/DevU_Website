@@ -4,7 +4,7 @@
         <title>DevU Technologies - Software Company, Bucharest</title>
 
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-        <meta name="description" content="We are a small software company based in Bucharest specialized in web and mobile development, building quality products that help businesses tell their stories.">
+        <meta name="description" content="We are the team you need to help your business develop its story. Specialized in web and mobile development, we understand and we use the technologies that are defining the digitial world.">
 
         <link rel="icon" type="image/x-icon" href="{{ url('images/favicon.png') }}"> 
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,700" rel="stylesheet">
