@@ -35,7 +35,7 @@ class APIController extends Controller
 
             $m->to('mihaigeorge.c@gmail.com');
 
-            $m->subject('[MIHAI CRACAN] New Contact Message');
+            $m->subject('[DevU] New Contact Message');
         });
 
         return response()->json(array(
