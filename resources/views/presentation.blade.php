@@ -59,10 +59,11 @@
               		<div class="inner cover">
                         <img src="{{ url('images/logo-big-white.png') }}" alt="DevU Technologies" />
                 		<h2>Software with a story</h2>
-                        <p class="description">We are a small software company based in Bucharest specialized in web and mobile development, building quality products that help businesses tell their stories.</p>
-                        <p class="learn-more lead">
+                        <p class="description">We are the team you need to help your business develop its story. Specialized in web and mobile development, we understand and we use the technologies that are defining the digitial world.</p>
+                        <p class="hashtag">#Bucharest</p>
+                        <!-- <p class="learn-more lead">
                             <a id="more" data-slide-to="web_services" href="#" class="btn btn-lg btn-primary">Find out more</a>
-                        </p>
+                        </p> -->
               		</div>
             	</div>
             </div>
@@ -122,32 +123,39 @@
         <div id="team-wrapper" class="section team">
             <div class="inner">
                 <h2 class="not-animate-hide">Team</h2>
-                <h3 class="not-animate-hide">We are a young and ambitious team that loves to build great products and to exceed the expectations.</h3>
+                <h3 class="not-animate-hide">We are a team of passionate creators, makers and thinkers with a straightforward atitude and serious about delivering great outcomes.</h3>
                 <div class="content not-animate-hide">
                     <div class="row">
 
                         <div class="member col-sm-4">
-                            <a href="https://ro.linkedin.com/in/iulia-paraicu-38373784/ro" target="_blank">
-                                <img src="{{ url('images/iulia.png') }}" alt="Iulia Paraicu">
-                                <div class="name">Iulia Paraicu</div>
-                                <div class="role">Co-Founder / Software Developer</div>
-                            </a>
+                            <img src="{{ url('images/iulia.png') }}" alt="Iulia Paraicu">
+                            <div class="name">Iulia Paraicu</div>
+                            <div class="role">Co-Founder / Software Developer</div>
+                            <div class="contact">
+                                <a href="https://ro.linkedin.com/in/iulia-paraicu-38373784/ro" class="item ln ion-social-linkedin" target="_blank"></a>
+                                <a href="mailto:iulia.paraicu@gmail.com" class="item email ion-email"  target="_blank"></a>
+                            </div>
                         </div>
 
                         <div class="member col-sm-4">
-                            <a href="http://mihaicracan.com/" target="_blank">
-                                <img src="{{ url('images/mihai.jpg') }}" alt="Mihai Cracan">
-                                <span class="name">Mihai Cracan</span>
-                                <span class="role">Co-Founder / Software Developer</span>
-                            </a>
+                            <img src="{{ url('images/mihai.jpg') }}" alt="Mihai Cracan">
+                            <span class="name">Mihai Cracan</span>
+                            <span class="role">Co-Founder / Software Developer</span>
+                            <div class="contact">
+                                <a href="https://www.linkedin.com/in/mihai-george-cracan-4b805258" class="item ln ion-social-linkedin" target="_blank"></a>
+                                <a href="http://mihaicracan.com/" class="item site ion-earth" target="_blank"></a>
+                                <a href="mailto:mihaigeorge.c@gmail.com" class="item email ion-email" target="_blank"></a>
+                            </div>
                         </div>
 
                         <div class="member col-sm-4">
-                            <a href="https://ro.linkedin.com/in/andreea-longo-3b503484/ro" target="_blank">
-                                <img src="{{ url('images/andreea.png') }}" alt="Andreea Longo">
-                                <div class="name">Andreea Longo</div>
-                                <div class="role">Business Developer</div>
-                            </a>
+                            <img src="{{ url('images/andreea.png') }}" alt="Andreea Longo">
+                            <div class="name">Andreea Longo</div>
+                            <div class="role">Business Developer</div>
+                            <div class="contact">
+                                <a href="https://ro.linkedin.com/in/andreea-longo-3b503484/ro" class="item ln ion-social-linkedin" target="_blank"></a>
+                                <a href="mailto:andreealongo@gmail.com" class="item email ion-email" target="_blank"></a>
+                            </div>
                         </div>
                     </div>
                 </div>

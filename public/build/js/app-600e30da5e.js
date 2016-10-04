@@ -60,6 +60,7 @@ var APP = {
         this.$window   = $(window);
         this.$body     = $("body");
         this.$masthead = $("#masthead");
+        this.$logo     = this.$masthead.find(".logo");
         this.$sub_logo = this.$masthead.find(".sub-logo");
 
         this.$videos = $("iframe[src*='//www.youtube.com'], iframe[src*='vimeo.com']");
@@ -105,11 +106,11 @@ var APP = {
         this.$sliders.click(this.slideToContent);
 
         // Animate team member on hover
-        this.$members.hover(function() {
-            APP.animateMember(this, "on");
-        }, function() {
-            APP.animateMember(this, "off");
-        });
+        // this.$members.hover(function() {
+        //     APP.animateMember(this, "on");
+        // }, function() {
+        //     APP.animateMember(this, "off");
+        // });
 
         this.contact.$btn.click(this.sendMessage.bind(this));
     },

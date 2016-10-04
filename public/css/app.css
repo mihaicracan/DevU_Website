@@ -196,6 +196,10 @@ body {
   margin-top: 4px;
 }
 
+.cover-wrapper .masthead.light .masthead-header .logo {
+  opacity: 1;
+}
+
 .cover-wrapper .masthead.light .masthead-header .logo .first {
   width: 83px;
   -webkit-filter: none;
@@ -283,6 +287,7 @@ body {
 }
 
 .cover-wrapper .masthead .masthead-header .logo {
+  opacity: 0;
   text-align: left;
 }
 
@@ -341,7 +346,7 @@ body {
 
 .cover-wrapper .cover-wrapper-inner .cover-container .inner.cover {
   padding: 0 20px;
-  padding-top: 120px;
+  padding-top: 100px;
 }
 
 .cover-wrapper .cover-wrapper-inner .cover-container .inner.cover img {
@@ -379,6 +384,13 @@ body {
 
 .cover-wrapper .cover-wrapper-inner .cover-container .inner.cover .lead {
   margin-top: 60px;
+}
+
+.cover-wrapper .cover-wrapper-inner .cover-container .inner.cover .hashtag {
+  margin-top: 60px;
+  letter-spacing: 1px;
+  font-size: 30px;
+  font-weight: 100;
 }
 
 .section .inner {
@@ -534,6 +546,67 @@ body {
   font-size: 17px;
   font-weight: 300;
   color: #8E929E;
+}
+
+.section.team .member .contact {
+  margin: auto;
+  padding-top: 15px;
+  color: #fff;
+}
+
+.section.team .member .contact .item {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  line-height: 42px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #fff;
+}
+
+.section.team .member .contact .item.fb {
+  background-color: #35619E;
+}
+
+.section.team .member .contact .item.fb:hover {
+  background-color: #2f558b;
+}
+
+.section.team .member .contact .item.ln {
+  background-color: #1075AF;
+}
+
+.section.team .member .contact .item.ln:hover {
+  background-color: #0e6598;
+}
+
+.section.team .member .contact .item.site {
+  background-color: #009ccc;
+}
+
+.section.team .member .contact .item.site:hover {
+  background-color: #0089b3;
+}
+
+.section.team .member .contact .item.tw {
+  background-color: #009ccc;
+  font-size: 20px;
+  line-height: 42px;
+}
+
+.section.team .member .contact .item.tw:hover {
+  background-color: #0089b3;
+}
+
+.section.team .member .contact .item.email {
+  background-color: #D44132;
+}
+
+.section.team .member .contact .item.email:hover {
+  background-color: #c33729;
 }
 
 .section.offer {
@@ -741,6 +814,10 @@ body {
     height: 120px;
   }
 
+  .cover-wrapper .masthead.light .masthead-nav {
+    margin-top: 8px;
+  }
+
   .cover-wrapper .masthead .masthead-header .logo {
     text-align: center;
   }
@@ -749,8 +826,16 @@ body {
     text-align: center;
   }
 
+  .cover-wrapper .masthead .masthead-nav {
+    margin-top: -50px;
+  }
+
   .cover-wrapper .masthead .masthead-nav li a {
     font-size: 14px;
+  }
+
+  .cover-wrapper .inner.cover {
+    padding-top: 60px !important;
   }
 
   .cover-wrapper .inner.cover img {

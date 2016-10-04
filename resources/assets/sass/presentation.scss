@@ -224,6 +224,7 @@ body {
                 margin-top: 4px;
 
                 .logo {
+                    opacity: 1;
 
                     .first {
                         width: 83px;
@@ -331,6 +332,7 @@ body {
             margin-top: 10px;
 
             .logo {
+                opacity: 0;
                 text-align: left;
 
                 .first {
@@ -386,7 +388,7 @@ body {
 
                 &.cover {
                     padding: 0 20px;
-                    padding-top: 120px;
+                    padding-top: 100px;
 
                     img {
                         margin-top: 15px;
@@ -423,6 +425,13 @@ body {
 
                     .lead {
                         margin-top: 60px;
+                    }
+
+                    .hashtag {
+                        margin-top: 60px;
+                        letter-spacing: 1px;
+                        font-size: 30px;
+                        font-weight: 100;
                     }
                 }
             }
@@ -599,6 +608,68 @@ body {
                 font-size: 17px;
                 font-weight: 300;
                 color: #8E929E;
+            }
+
+            .contact {
+                margin: auto;
+                padding-top: 15px;
+                color: $light;
+
+                .item {
+                    display: inline-block;
+                    margin: 0 5px;
+                    padding: 0;
+                    width: 40px;
+                    height: 40px;
+                    font-size: 25px;
+                    line-height: 42px;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    color: $light;
+
+                    &.fb {
+                        background-color: $fb-color;
+
+                        &:hover {
+                            background-color: darken($fb-color, 5%);
+                        }
+                    }
+
+                    &.ln {
+                        background-color: $ln-color;
+
+                        &:hover {
+                            background-color: darken($ln-color, 5%);
+                        }
+                    }
+
+                    &.site {
+                        background-color: $tw-color;
+
+                        &:hover {
+                            background-color: darken($tw-color, 5%);
+                        }
+                    }
+
+                    &.tw {
+                        background-color: $tw-color;
+                        font-size: 20px;
+                        line-height: 42px;
+
+                        &:hover {
+                            background-color: darken($tw-color, 5%);
+                        }
+                    }
+
+                    &.email {
+                        background-color: $gm-color;
+
+                        &:hover {
+                            background-color: darken($gm-color, 5%);
+                        }
+                    }
+
+                }
             }
         }
     }
