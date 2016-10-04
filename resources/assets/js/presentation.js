@@ -86,8 +86,10 @@ var APP = {
             if (!this.$masthead.hasClass("light")) {
                 this.$masthead.addClass("light");
                 setTimeout(function() {
-                    APP.$sub_logo.css('opacity', 1);
-                    APP.$masthead.css('border-bottom', '2px solid #f5f5f5');
+                    if (APP.$masthead.hasClass("light")) {
+                        APP.$sub_logo.css('opacity', 1);
+                        APP.$masthead.css('border-bottom', '2px solid #f5f5f5');
+                    }
                 }, 250);
             }
         }
