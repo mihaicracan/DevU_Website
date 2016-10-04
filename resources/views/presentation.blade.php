@@ -4,7 +4,7 @@
         <title>DevU Technologies - Software Company, Bucharest</title>
 
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-        <meta name="description" content="We are the team you need to help your business develop its story. Specialized in web and mobile development, we understand and we use the technologies that are defining the digitial world.">
+        <meta name="description" content="Let us help your business develop its story. Specialized in web and mobile development, we understand and we use the technologies that are defining the digitial world.">
 
         <link rel="icon" type="image/x-icon" href="{{ url('images/favicon.png') }}"> 
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,700" rel="stylesheet">
@@ -59,7 +59,7 @@
               		<div class="inner cover">
                         <img src="{{ url('images/logo-big-white.png') }}" alt="DevU Technologies" />
                 		<h2>Software with a story</h2>
-                        <p class="description">We are the team you need to help your business develop its story. Specialized in web and mobile development, we understand and we use the technologies that are defining the digitial world.</p>
+                        <p class="description">Let us help your business develop its story. Specialized in web and mobile development, we understand and we use the technologies that are defining the digitial world.</p>
                         <p class="hashtag">#Bucharest</p>
                         <!-- <p class="learn-more lead">
                             <a id="more" data-slide-to="web_services" href="#" class="btn btn-lg btn-primary">Find out more</a>
