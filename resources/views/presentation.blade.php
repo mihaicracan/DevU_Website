@@ -130,7 +130,7 @@
                             <a href="https://ro.linkedin.com/in/iulia-paraicu-38373784/ro" target="_blank">
                                 <img src="{{ url('images/iulia.png') }}" alt="Iulia Paraicu">
                                 <div class="name">Iulia Paraicu</div>
-                                <div class="role">Co-Founder</div>
+                                <div class="role">Co-Founder / Software Developer</div>
                             </a>
                         </div>
 
@@ -138,7 +138,7 @@
                             <a href="http://mihaicracan.com/" target="_blank">
                                 <img src="{{ url('images/mihai.jpg') }}" alt="Mihai Cracan">
                                 <span class="name">Mihai Cracan</span>
-                                <span class="role">Co-Founder</span>
+                                <span class="role">Co-Founder / Software Developer</span>
                             </a>
                         </div>
 
