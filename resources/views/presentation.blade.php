@@ -59,7 +59,7 @@
               		<div class="inner cover">
                         <img src="{{ url('images/logo-big-white.png') }}" alt="DevU Technologies" />
                 		<h2>Software with a story</h2>
-                        <p class="description">Let us help your business develop its story. Specialized in web and mobile development, we understand and we use the technologies that are defining the digitial world.</p>
+                        <p class="description">Let us help your business develop its story.<br>Specialized in web and mobile development, we understand and we use the technologies that are defining the digitial world.</p>
                         <p class="hashtag">#Bucharest</p>
                         <!-- <p class="learn-more lead">
                             <a id="more" data-slide-to="web_services" href="#" class="btn btn-lg btn-primary">Find out more</a>
@@ -133,7 +133,7 @@
                             <div class="role">Co-Founder / Software Developer</div>
                             <div class="contact">
                                 <a href="https://ro.linkedin.com/in/iulia-paraicu-38373784/ro" class="item ln ion-social-linkedin" target="_blank"></a>
-                                <a href="mailto:iulia.paraicu@gmail.com" class="item email ion-email"  target="_blank"></a>
+                                <a href="mailto:iulia@devu.ro" class="item email ion-email"  target="_blank"></a>
                             </div>
                         </div>
 
@@ -144,7 +144,7 @@
                             <div class="contact">
                                 <a href="https://www.linkedin.com/in/mihai-george-cracan-4b805258" class="item ln ion-social-linkedin" target="_blank"></a>
                                 <a href="http://mihaicracan.com/" class="item site ion-earth" target="_blank"></a>
-                                <a href="mailto:mihaigeorge.c@gmail.com" class="item email ion-email" target="_blank"></a>
+                                <a href="mailto:mihai@devu.ro" class="item email ion-email" target="_blank"></a>
                             </div>
                         </div>
 
@@ -154,7 +154,7 @@
                             <div class="role">Business Developer</div>
                             <div class="contact">
                                 <a href="https://ro.linkedin.com/in/andreea-longo-3b503484/ro" class="item ln ion-social-linkedin" target="_blank"></a>
-                                <a href="mailto:andreealongo@gmail.com" class="item email ion-email" target="_blank"></a>
+                                <a href="mailto:andreea@devu.ro" class="item email ion-email" target="_blank"></a>
                             </div>
                         </div>
                     </div>
