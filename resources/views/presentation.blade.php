@@ -59,7 +59,7 @@
               		<div class="inner cover">
                         <img src="{{ url('images/logo-big-white.png') }}" alt="DevU Technologies" />
                 		<h2>Software with a story</h2>
-                        <p class="description">Let us help your business develop its story.<br>Specialized in web and mobile development, we understand<br>and we use the technologies that are defining the digitial world.</p>
+                        <p class="description">We help your business express its unique story.<br>Specialized in web and mobile development, we understand<br>and we use the technologies that are defining the digitial world.</p>
                         <p class="hashtag">#Bucharest</p>
                         <!-- <p class="learn-more lead">
                             <a id="more" data-slide-to="web_services" href="#" class="btn btn-lg btn-primary">Find out more</a>
@@ -166,7 +166,7 @@
             <div class="bg-color">
                 <div class="inner">
                     <h2 class="not-animate-hide">Ask for an offer</h2>
-                    <h3 class="not-animate-hide">Let us analyse your project, build the right development strategy and make you an offer for free.</h3>
+                    <h3 class="not-animate-hide">We will analyse your project ideas, develop a suitable strategy and let you decide whether the outcomes suite your story.</h3>
                     <div class="content not-animate-hide">
                         <a class="btn btn-primary" data-slide-to="contact" href="#">Contact us</a>
                     </div>
@@ -177,7 +177,7 @@
         <div id="contact-wrapper" class="section contact">
             <div class="inner">
                 <h2 class="not-animate-hide">Contact</h2>
-                <h3 class="not-animate-hide">If you have a cool project in mind feel free to contact us.</h3>
+                <h3 class="not-animate-hide">Tell us about your exciting project.</h3>
                 <!-- <div class="social">
                     <a href="https://www.facebook.com/mihai.george.cr" target="_blank" class="item fb ion-social-facebook"></a>
                     <a href="https://ro.linkedin.com/in/mihai-george-cracan-4b805258" target="_blank" class="item ln ion-social-linkedin"></a>
