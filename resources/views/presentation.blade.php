@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>DevU Technologies - Software Company, Bucharest</title>
+        <title>DevU Technologies - Software with a story, Bucharest</title>
 
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
         <meta name="description" content="Let us help your business develop its story. Specialized in web and mobile development, we understand and we use the technologies that are defining the digitial world.">
@@ -207,6 +207,18 @@
         <!-- <script src="https://maps.googleapis.com/maps/api/js"></script> -->
         <script type="text/javascript" src="{{ url('js/lib.js?v=1.1.0') }}"></script>
         <script type="text/javascript" src="{{ url(elixir('js/app.js')) }}"></script>
+
+        <!-- Hotjar Tracking Code for http://devu.ro -->
+        <script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:306320,hjsv:5};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+        </script>
 
         <!-- <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
