@@ -59,7 +59,7 @@
               		<div class="inner cover">
                         <img src="{{ url('images/logo-big-white.png') }}" alt="DevU Technologies" />
                 		<h2>Software with a story</h2>
-                        <p class="description">We help your business express its unique story.<br>Specialized in web and mobile development, we understand<br>and we use the technologies that are defining the digitial world.</p>
+                        <p class="description">We help your business express its unique story.<br>Specialized in web and mobile development, we understand<br>and we use the technologies that are defining the digital world.</p>
                         <p class="hashtag">#Bucharest</p>
                         <!-- <p class="learn-more lead">
                             <a id="more" data-slide-to="web_services" href="#" class="btn btn-lg btn-primary">Find out more</a>
